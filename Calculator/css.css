@@ -1,0 +1,63 @@
+body{
+    background: rgb(8, 8, 8);
+    width: 50%;
+    display: block;
+    margin :100px auto; 
+}
+* {
+    box-sizing: border-box;
+}
+.input {
+    width: 80%;
+    margin :100px auto 0 auto; 
+    padding: 25px;
+    border: 10px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    background: rgb(5, 5, 5);
+    font-size: 20px;
+    color: white;
+ }
+ input:focus{
+    background: gray;
+    outline : none;
+}
+button:focus{
+    outline: none;
+
+}
+ .button1{
+    border: white ;
+     border-radius:50%;
+     width: 60px;
+     height: 60px;
+     background-color: lightgray;
+ }
+ .button2{
+     border: white ;
+    border-radius:50%;
+    width: 60px;
+    height: 60px;
+    background-color:orange;
+    color: white;
+}
+.button3{
+    border: white ;
+    border-radius:50%;
+    width: 60px;
+    height: 60px;
+    background-color:gray;
+    color: white;
+}
+.main{
+    
+    margin-left: 90px; 
+}
+.button4{
+    border: white ;
+    border-radius:50px;
+    width: 120px;
+    height: 60px;
+    background-color:gray;
+    color: white;
+}
+
